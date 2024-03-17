@@ -1,0 +1,111 @@
+body {
+	background-image:url(imagenes/fondo.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center center;
+	background-size:cover;
+	
+}
+* {
+	margin:20px;
+}
+h1 {
+	color:#000;
+	font-size:100px;
+	text-aling:center;
+}
+h2 {
+	color:#34495E;
+	font-size:70px;
+}
+h3 {
+	font-size:60px;
+}
+h4 {
+	color:#1A5276;
+	font-size:50px;
+}
+h5 {
+	color:#1A5276;
+	font-size:40px;
+}
+h6 {
+	color:#3498DB;
+	font-size:30px;
+}
+p {
+	font-size:20px;
+}
+b,strong {
+	font-size:22px;
+}
+c {
+	text-shadow:2px 2px 2px #5D6D7E;
+}
+img {
+	border-radius:10px;
+}
+a:hover {
+	font-size:25px;
+}
+a:active {
+	font-color:red;
+	font-size:25px;
+}
+.fondo1 {
+	width: fit-content;
+	padding: 20px;
+	border: 5px dotted #c82828;
+}
+ .container1 {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    border: 1px solid #ddd;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* Show the dropdown content when the dropdown button is clicked */
+.show {
+    display: block;
+}
+
+/* Dropdown content text */
+.dropdown-content p {
+    padding: 10px;
+    margin: 0;
+}
