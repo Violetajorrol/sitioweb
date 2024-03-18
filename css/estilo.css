@@ -56,16 +56,16 @@ a:active {
 	width: fit-content;
 	padding: 20px;
 	border: 5px dotted #c82828;
+	background-color: #abebc6;
 }
  .container1 {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #abebc6;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
 .container {
     max-width: 800px;
     margin: 0 auto;
