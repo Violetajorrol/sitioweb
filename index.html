@@ -3,14 +3,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto HTML</title>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
     <style>
         .index-box {
+            border: 2px solid purple; /* Borde de color morado */
 	    background:#D0D3D4;
-            border: 1px solid #000;
             padding: 20px;
             width: fit-content;
             margin: 0 auto;
+            font-family: Arial, sans-serif; /* Tipo de fuente predeterminada */
+        }
+        e {
+            font-family: 'Comic Sans MS', cursive; /* Tipo de fuente más llamativo */
+            color: red; /* Color rojo para el título */
+            text-decoration: underline; /* Subrayado para el título */
+        }
+        .red-text {
+            color: red;
+        }
+
+        .blue-text {
+            color: blue;
+        }
+
+        .green-text {
+            color: green;
         }
         .fondo {
             background: #79ba7b ;
@@ -18,56 +35,130 @@
         .title-center {
             text-align: center;
         }
-        .red {
-            color: red;
+        f {
+               body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Fondo gris claro */
+            color: #333;
+            line-height: 1.6;
         }
-        .blue {
-            color: blue;
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .green {
-            color: green;
+
+        h1 {
+            color: #ff6600; /* Naranja */
+            text-align: center;
+            font-size: 36px; /* Tamaño grande */
+            text-transform: uppercase; /* Mayúsculas */
         }
+
+        h2 {
+            color: #007bff; /* Azul */
+            font-size: 24px; /* Tamaño mediano */
+        }
+
+        h3 {
+            color: #009688; /* Verde */
+            font-size: 20px; /* Tamaño pequeño */
+        }
+
+        p,
+        p2,
+        p3 {
+            margin-bottom: 20px;
+            color: #555; /* Color de texto más oscuro */
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        .highlight {
+            color: #990099; /* Púrpura */
+            font-weight: bold;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: #007bff; /* Azul */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #ff6600; /* Naranja */
+        }
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Fondo gris claro */
+            color: #333;
+            line-height: 1.6;
+        }
+        
+
     </style>
 </head>
 <body>
     <h1 class="title-center">Las células</h1>
-
+    
     <div class="index-box">
-        <h1>Índice</h1>
+        <h1><e>Índice</e></h1>
         <p>En esta web sobre citología, podrás encontrar estos apartados:</p>
         <ol>
             <li><a href="#Introducción">Introducción</a></li>
-            <li><a href="#proca">Célula <span class="red">PROCARIOTA</span></a></li>
-            <li><a href="#euca">Célula <span class="red">EUCARIOTA</span></a></li>
+            <li><a href="#proca">Célula <span class="red-text">PROCARIOTA</span></a></li>
+            <li><a href="#euca" color="red">Célula <span class="red-text">EUCARIOTA</span></a></li>
         </ol>
         <ul>
-            <li><a href="#veg">Célula <span class="blue">Vegetal</span></a></li>
-            <li><a href="#ani">Célula <span class="green">Animal</span></a></li>
+            <li><a href="#veg">Célula <span class="blue-text">Vegetal</span></a></li>
+            <li><a href="#ani">Célula <span class="green-text">Animal</span></a></li>
         </ul>
     </div>
-
+    
     <h2 class="title-center" id="Introducción">Introducción</h2>
 		<p><c>La célula es la <b>unidad estructural y funcional</b> de todos los seres vivos. Es la parte del ser vivo que realiza las tres <strong>funciones vitales</strong> de los seres vivos: nutrición, relación y reproducción.</c></p>
 		<img src="https://concepto.de/wp-content/uploads/2018/04/celula-e1523472422656.jpg" alt="Imagen célula" title="Concepto célula" width="500"/>
 
 		
-		<div class="container1">
+		<div class="container1"><f>
         <h1>Procariota</h1>
         <p>Las células procariotas están solamente presentes en el <strong>reino Moneras</strong>, por lo tanto, se tratan de <span class="highlight">bacterias</span>, ya sean <span class="highlight">eubacterias</span> o <span class="highlight">arquebacterias</span>.</p>
 
         <h2>Características generales</h2>
-        <p2>Son células que rodeando a la membrana plasmática existe una pared de composición y estructura exclusiva de estos organismos. No poseen núcleos ni orgánulos membranosos. Son de pequeño tamaño (entre 0,5 y 1 u y longitud entre 2 y 10).</p2>
+        <p>Son células que rodeando a la membrana plasmática existe una pared de composición y estructura exclusiva de estos organismos. No poseen núcleos ni orgánulos membranosos. Son de pequeño tamaño (entre 0,5 y 1 u y longitud entre 2 y 10).</p>
 
         <h3>Componentes básicos</h3>
-        <p3>La <em>membrana plasmática</em>, que es una <span class="highlight">cubierta externa</span> que separa el interior de la célula de su entorno.<br>
+        <p>La <em>membrana plasmática</em>, que es una <span class="highlight">cubierta externa</span> que separa el interior de la célula de su entorno.<br>
         El <em>citoplasma</em>, que se compone del citosol gelatinoso al interior de la célula y las estructuras celulares suspendidas en él.<br>
         El <em>ADN</em>, que es el <span class="highlight">material genético</span> de la célula.<br>
-        Los <em>ribosomas</em>, que son <span class="highlight">orgánulos moleculares</span> que sintetizan proteínas.</p3>
+        Los <em>ribosomas</em>, que son <span class="highlight">orgánulos moleculares</span> que sintetizan proteínas.</p>
 
-        <img src="IMAGENES/procariota.png" alt="La estructura de los procariontes" title="Célula procariota con sus partes" width="400"/>
+        <img src="imagenes/procariota.png" alt="La estructura de los procariontes" title="Célula procariota con sus partes" width="400"/>
 
         <p><strong>Para más información</strong> sobre la estructura de los procariotas, puedes visitar el siguiente enlace: <a href="https://es.khanacademy.org/science/ap-biology/gene-expression-and-regulation/dna-and-rna-structure/a/prokaryote-structure" target="_blank">Khan Academy - Estructura de los Procariotas</a></p>
-    </div>
+    </f></div>
 
 		<h3 id="euca"style="text-align: center; color: #45B39D;">
 			<span style="border-bottom: 4px solid #c82828;">
